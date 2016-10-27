@@ -11,7 +11,7 @@
       padding-right: 15px;
       padding-bottom: 15px;
       padding-left: 8px;}
-    header {color:white;
+  header {color:white;
       font-family: sans-serif;
       text-align: center;
       font-size: 24px;
@@ -28,6 +28,7 @@
     main {Background-color: White;
       font-family: sans-serif;
       padding: 25px;}
+  p {font-family: sans-serif;}
     p a:link { 
       color:dimgrey;}
     p a:visited {
@@ -63,7 +64,7 @@
     footer a:link {color: white;}
     footer a:visited {color: whitesmoke;}
     footer a:hover {color: gold;}
-    footer {padding: 4px 2px;
+  footer {padding: 4px 2px;
       font-family: sans-serif;}
     aside {  
       background-color: whitesmoke;
