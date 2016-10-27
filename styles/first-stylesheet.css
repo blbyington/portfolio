@@ -25,10 +25,11 @@
     a:visited {text-decoration-line: line-through;
       color:ghostwhite;}
     a:hover {color: gold;}
-    main {Background-color: White;
+main {Background-color: White;
       font-family: sans-serif;
       padding: 25px;}
-  p {font-family: sans-serif;}
+  p {font-family: sans-serif;
+      color: dimgrey}
     p a:link { 
       color:dimgrey;}
     p a:visited {
