@@ -1,6 +1,6 @@
     <style>
     body {Background-color: whitesmoke;
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-family: sans-serif;
       font-size: 16px;}
     header, .full-width {width: 100%;
       background-color:dimgray;}
@@ -11,7 +11,8 @@
       padding-right: 15px;
       padding-bottom: 15px;
       padding-left: 8px;}
-    header {color:white; 
+    header {color:white;
+      font-family: sans-serif;
       text-align: center;
       font-size: 24px;
       padding-top: 5px;
@@ -25,6 +26,7 @@
       color:ghostwhite;}
     a:hover {color: gold;}
     main {Background-color: White;
+      font-family: sans-serif;
       padding: 25px;}
     p a:link { 
       color:dimgrey;}
@@ -61,9 +63,11 @@
     footer a:link {color: white;}
     footer a:visited {color: whitesmoke;}
     footer a:hover {color: gold;}
-    footer {padding: 4px 2px;}
+    footer {padding: 4px 2px;
+      font-family: sans-serif;}
     aside {  
       background-color: whitesmoke;
+      font-family: sans-serif;
       display: block;
       position: fixed;
       border: 3px solid gold;
