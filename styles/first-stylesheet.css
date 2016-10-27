@@ -1,0 +1,74 @@
+    <style>
+    body {Background-color: whitesmoke;
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 16px;}
+    header, .full-width {width: 100%;
+      background-color:dimgray;}
+    .wrap {width: 80%;
+      max-width: 24em;
+      margin: 2 auto;
+      padding-top: 5px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      padding-left: 8px;}
+    header {color:white; 
+      text-align: center;
+      font-size: 24px;
+      padding-top: 5px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      padding-left: 8px;}
+      nav {color:whitesmoke;
+        font-size: 16px;}
+    a {color: white;}
+    a:visited {text-decoration-line: line-through;
+      color:ghostwhite;}
+    a:hover {color: gold;}
+    main {Background-color: White;
+      padding: 25px;}
+    p a:link { 
+      color:dimgrey;}
+    p a:visited {
+      text-decoration-line: line-through;
+      color:gold;}
+    p a:hover {color: gold;}
+    footer, .full-width {
+      width: 100%;
+      background-color: dimgrey;}
+    .wrap {
+      width: 80%;
+      max-width: 24em;
+      margin: 2 auto;
+      padding-top: 5px;
+      padding-right: 5px;
+      padding-bottom: 5px;
+      padding-left: 8px;}
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      background-color: lightgrey;
+      min-width: 160px;
+      padding: 12px 16px;}
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: dimgray;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px dimgrey;
+      padding: 12px 16px;}
+    .dropdown:hover .dropdown-content {
+      display: block;}      
+    footer a:link {color: white;}
+    footer a:visited {color: whitesmoke;}
+    footer a:hover {color: gold;}
+    footer {padding: 4px 2px;}
+    aside {  
+      background-color: whitesmoke;
+      display: block;
+      position: fixed;
+      border: 3px solid gold;
+      bottom: 0;
+      right: 0;
+      width: 300px;
+      padding: 5px 7px;}
+  </style>
