@@ -1,80 +1,133 @@
-    <style>
-    body {Background-color: whitesmoke;
-      font-family: sans-serif;
-      font-size: 16px;}
-    header, .full-width {width: 100%;
-      background-color:dimgray;}
-    .wrap {width: 80%;
-      max-width: 24em;
-      margin: 2 auto;
-      padding-top: 5px;
-      padding-right: 15px;
-      padding-bottom: 15px;
-      padding-left: 8px;}
-  header {color:white;
-      font-family: sans-serif;
-      text-align: center;
-      font-size: 24px;
-      padding-top: 5px;
-      padding-right: 15px;
-      padding-bottom: 15px;
-      padding-left: 8px;}
-      nav {color:whitesmoke;
-        font-size: 16px;}
-    a {color: white;}
-    a:visited {text-decoration-line: line-through;
-      color:ghostwhite;}
-    a:hover {color: gold;}
+body {Background-color: #EFF0F3;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif; 100;}
+/*.wrap {width: 80%;
+    max-width: 24em;
+    margin: 2 auto;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 8px;}
+header {
+  width: 100%;
+  background-color: #FDBC40;
+  color:white;
+  font-family: 'Niconne', cursive;
+  font-size: 36px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;}
+nav {color:whitesmoke;
+  background-color: #2B3B2A;
+    font-size: 16px;
+  padding: 2px;
+}
+a {color: white;}
+a:visited {text-decoration-line: line-through;
+  color:ghostwhite;}
+a:hover {color: gold;}
+*/
+
+
+html {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+body {
+  background: EFF0F3;
+  font-family: 'Open Sans', sans-serif; 100;
+}
+header {
+  background-color: #EFF0F3;
+  width: 100%;
+  color: white;
+  padding: 1rem;
+}
+header h1 {
+  font-size: 50px;
+  font-family: 'Niconne', cursive;
+}
+header h4 {
+  color: darkgrey;
+  font-weight: lighter;
+}
+a.calltoaction{
+  color: red;
+  font-size: 14px;
+  left: 252px;
+  float: right;
+}
+nav {
+  background: grey;
+  color: black;
+  padding: .5em;
+  justify-content: flex-end;
+}
+nav a {
+  color: purple;
+  font-size: 24px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav li {
+  float: left;
+}
+nav li a {
+  display: block;
+  padding-right: 4em;
+  padding-left: 2em;
+}
+
+
+
 main {Background-color: White;
-      font-family: sans-serif;
-      padding: 25px;}
-  p {font-family: sans-serif;
-      color: dimgrey}
-    p a:link { 
-      color:dimgrey;}
-    p a:visited {
-      text-decoration-line: line-through;
-      color:gold;}
-    p a:hover {color: gold;}
-    footer, .full-width {
-      width: 100%;
-      background-color: dimgrey;}
-    .wrap {
-      width: 80%;
-      max-width: 24em;
-      margin: 2 auto;
-      padding-top: 5px;
-      padding-right: 5px;
-      padding-bottom: 5px;
-      padding-left: 8px;}
-    .dropdown {
-      position: relative;
-      display: inline-block;
-      background-color: lightgrey;
-      min-width: 160px;
-      padding: 12px 16px;}
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: dimgray;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px dimgrey;
-      padding: 12px 16px;}
-    .dropdown:hover .dropdown-content {
-      display: block;}      
-    footer a:link {color: white;}
-    footer a:visited {color: whitesmoke;}
-    footer a:hover {color: gold;}
-  footer {padding: 4px 2px;
-      font-family: sans-serif;}
-    aside {  
-      background-color: whitesmoke;
-      font-family: sans-serif;
-      display: block;
-      position: fixed;
-      border: 3px solid gold;
-      bottom: 0;
-      right: 0;
-      width: 300px;
-      padding: 5px 7px;}
-  </style>
+  padding: 25px;
+  }
+p {color: dimgray;}
+p a:link { color: #2B3B2A;}
+p a:visited {text-decoration-line: line-through;
+    color:gold;}
+p a:hover {color: gold;}
+footer, .full-width {
+    width: 100%;
+    background-color: dimgrey;}
+.wrap {
+    width: 80%;
+    max-width: 24em;
+    margin: 2 auto;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: lightgrey;
+    min-width: 160px;
+    padding: 12px 16px;}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: dimgray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px dimgrey;
+    padding: 12px 16px;}
+.dropdown:hover .dropdown-content {
+    display: block;}      
+footer a:link {color: white;}
+footer a:visited {color: whitesmoke;}
+footer a:hover {color: gold;}
+footer {padding: 4px 2px;}
+aside {  
+  background-color: whitesmoke;
+  float:right;
+  display: block;
+  border: 3px solid gold;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  padding: 5px 7px;}
