@@ -1,42 +1,49 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
 
-<html>
-<head>
-    
-  <title>Britt's Site</title>
-  <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
-  <script src="https://use.fontawesome.com/b0d0cb12f8.js"></script>
-  <script src="https://use.typekit.net/hrb7oqn.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-</head>
-  
-<body>
-<header id="top">
-    <h1>This is a Practice Site</h1>
-    <h4>for HTML and CSS</h4>
-</header>
-<nav>
-  <a href="index.html">Home</a>
-  <a href="portfolio-page.html">Porfolio</a>
-  <a href="bio.html">About</a>
-  <a href="class-info.html">Class</a>
-</nav>
-  
-<section>
-<h2>Assignments</h2>
-  <div class="dropdown">
-    <span>Assignments</span>
-    <div class="dropdown-content">
-      <li><a href="#Assignment1">Assignment 1</a> </li>
-      <li><a href="#Assignment2">Assignment 2</a> </li>
-      <li><a href="#Assignment3">Assignment 3</a> </li>
-    </div>
-</div>
-<p>This is where you can view the websites that I can been working on in this class, I will be updating this portfolio with my assignments as I complete them. I'll also try to explain where is went wrong, what I did right, what problems I came across and how I solved them.
+    <!-- Bootstrap -->
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
 
-
-  <article id="Assignment1">
-
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Portfolio</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="portfolio-page.html">Porfolio</a></li>
+            <li><a href="bio.html">About</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+<div>
+<h>Class Assignments</h>
+		<p>This is where you can view the websites that I can been working on in this class, I will be updating this portfolio with my assignments as I complete them. I'll also try to explain where is went wrong, what I did right, what problems I came across and how I solved them. </p>
+		<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
   <h3>Assignment 1</h3>
   <h4>Semantic Tags</h4>
     <p><a href="https://blbyington.github.io/semantic_tags/">Click here</a> to view assignment 1</p>
@@ -48,68 +55,71 @@
     <figcaption><a href="https://blbyington.github.io/semantic_tags/">Assignment 1</a></figcaption>
   </figure>
   </p>
-
-    <br>
     <h1>In class work - class 1</h1>
-    <p>Created a website, about ducks, you can view that site here. We cememented the basic construction of HTML websites, learned how yo imbed images and links, create ordered and unordered list, etc.</p>
-  </article>
-
-
-  <article id="Assignment2">
-
-  <h3>Assignment 2</h3>
-    <p>The html that built this site is was assignment 2, please view with developer tools to see code.</p>
-
-  <figure>
-    <img src="https://cdn.meme.am/instances/55747961.jpg" alt="assignment 2" width="200" height="200">
-    <figcaption>Assignment 2</figcaption>
-  </figure>
-
-
-    <br>
+    <p>Created a website, about ducks, you can view that site here. We cememented the basic construction of HTML websites, learned how yo imbed images and links, create ordered and unordered list, etc.</p>    </div>
+    <div class="col-sm-4">
+      <h3>Assignment 2</h3>
+      <p>The html that built this site is was assignment 2, please view with developer tools to see code.</p>
+		<figure>
+			<img src="https://cdn.meme.am/instances/55747961.jpg" alt="assignment 2" width="200" height="200">
+			<figcaption>Assignment 2</figcaption>
+		</figure>
     <h1>In class work - class 2</h1>
     <p>In this class we worked on layout of the site, nesting and reviewed semantic tags. We did some trouble shooting and was able to work out some of the problems that we had come across when making out site for homework. </p>
-  </article>
-
-  <article id="Assignment3">
-
-  <h3>Assignment 3</h3>
+    </div>
+    <div class="col-sm-4">
+        <h3>Assignment 3</h3>
     <figure>
       <img src="https://cdn.meme.am/instances/500x/51351470.jpg" alt="assignment 3" width="125" height="125">
       <figcaption>Assignment 3</figcaption>
    </figure>
     <p>Learning how to properly style the CCS codes was tiresome but exciting at same time. It's very fun putting life into my work and messing wit the style. I'm going to think of some better layout ideas and come up with a solid design this week since I know more now and can plan for it.</p>
-
-
-    <br>
     <h1>In class work - class 3</h1>
     <p>Will write up notes later</p>
-  </article>
-
-</section>
-    <aside>
-      <h4>CONTACT</h4>
-      <p>BLByington@gmail.com</p>
-      <p>https://blbyington.github.io/portfolio/</p>
-      <p><a href="http://www.brokenyellowmug.wordpress.com">brokenyellowmug.wordpress.com</a></p>
-      <p>
-        <a href="https://www.linkedin.com/in/britt-byington?trk=hp-identity-name"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-        <a href="https://www.facebook.com/brittersandlime?ref=bookmarks"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-        <a href="https://twitter.com/BrittByington"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-        <a href="https://www.instagram.com/one.britt.wonder/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-      </p>
-    </aside>
-
-
-
-
-
-<footer>
+    </div>
+  </div>
+</div>
+		
+		
+<div class="well well-sm">
   <p><a href="#top">Return to top.</a></p>
-  <p>Contact information: <a href="blbyington@gmail.com">
-  blbyington@gmail.com</a>.</p>
-</footer>
+  <p>Contact information: <a href="blbyington@gmail.com">blbyington@gmail.com</a>.</p>
+</div>
 
-</body>
 
+
+
+
+
+
+
+
+
+
+
+
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+
+<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" title="" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" data-original-title="Copy to clipboard">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1481745658261">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1481745658261" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit">                </object></div><svg xmlns="http://www.w3.org/2000/svg" width="1140" height="500" viewBox="0 0 1140 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="57" style="font-weight:bold;font-size:57pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thirdslide</text></svg><div id="olModal" style="display: none;"></div><div id="olOverlay" style="display: none;"></div><div id="olToolbarContainer" style=""></div><div id="olPromptLabelCalculationDiv" class="olFont olDisplayNone" style="width: 10000px">
+                    <!--
+                    ----------------------------------------------------------------------------------------------------*** Label Calculation Div ***
+                    -->
+                    <span>
+                        <label id="olLabelCalculation" class="olDisplayInline">
+                        </label>
+                    </span>
+                </div></body>
 </html>
